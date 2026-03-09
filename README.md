@@ -54,7 +54,7 @@ The fact table references the dimension tables through foreign keys to enable ef
 ## Sample Analytics Queries
 
 Example 1 – Revenue by Region
-'''sql
+
 SELECT region, SUM(sales_amount) AS total_revenue
 FROM fact_sales
 GROUP BY region;
